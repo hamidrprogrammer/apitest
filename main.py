@@ -19,6 +19,12 @@ async def fetch_xml_all(request: RequestModel):
     # هدرها
     headers = {
         'Content-Type': 'application/json; charset=utf-8',  # اینجا کلید API خود را وارد کنید
+        'sec-ch-ua-platform': 'Windows',
+        'Referer': 'https://kmt.solutions-apps.com/',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0',
+        'sec-ch-ua': 'Chromium;v="136", "Microsoft Edge";v="136", "Not.A/Brand";v="99"',
+        'sec-ch-ua-mobile': '?0',
+        'X-API-Key': 'your-api-key-here'  # Don't forget to add the actual API key
     }
     
     # داده‌ها
