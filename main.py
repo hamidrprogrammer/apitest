@@ -14,7 +14,7 @@ class RequestModel(BaseModel):
 @app.post("/api/OneNote/fetch-xml-all/")
 async def fetch_xml_all(request: RequestModel):
     # آدرس API مقصد
-    url = 'http://67.172.190.140:5108:5108/api/OneNote/fetch-xml-all'
+    url = 'http://67.172.190.140:5108/api/OneNote/fetch-xml-all'
     
     # هدرها
     headers = {
